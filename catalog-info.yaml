@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "podinfo"
+  annotations:
+    "humanitec.com/orgId": "workshop-2024-10-30"
+    "humanitec.com/appId": "podinfo"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
