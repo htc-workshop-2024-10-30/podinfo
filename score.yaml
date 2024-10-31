@@ -17,6 +17,8 @@ containers:
       PODINFO_UI_MESSAGE: "Hello, Humanitec!"
 
 resources:
+  my-redis:
+    type: redis
   dns: # We need a DNS record to point to the service 
     type: dns
   route:
